@@ -42,7 +42,7 @@ ng serve
 
 ## Fundamentos
 
-#### Data binding
+### Data binding
 
 Darta binding é o processo de envio de dados do componente para o template, digamos que no componente forneça seguintes atributos:
 
@@ -62,5 +62,21 @@ Para usar esses atributos no template, podemos fazer o data binding da seguinte 
 // Valores isolados usa-se {{ }}
 <h1> {{ title }} </h1>
 ~~~ 
+
+### Convenções de código
+
+O arquivo do componente, sua classe, seu estilo e o template seguem o mesmo padrão de nomenclatura, por exemplo:
+
+~~~javascript
+// Classe
+MenubarComponent
+// Componente
+menubar.componente.ts
+// Estilo
+menubar.component.css
+// Template
+menubar.component.html
+~~~ 
+
 
 
