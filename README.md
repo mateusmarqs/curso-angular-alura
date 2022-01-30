@@ -78,5 +78,15 @@ menubar.component.css
 menubar.component.html
 ~~~ 
 
+### Instalação do Bootstrap ou outra biblioteca CSS
+
+Após instalar a biblioteca, vá até o arquivo "angular.js" contido dentro da raiz do projeto. Após entrar nele, basta adicionar o arquivo minificado da bilbioteca dentro de "styles", por exemplo:
+
+~~~javascript
+"styles": [
+    "src/styles.css",
+    "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+]
+~~~ 
 
 

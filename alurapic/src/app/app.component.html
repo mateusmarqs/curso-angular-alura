@@ -1,2 +1,7 @@
-<h2>{{ title }}</h2>
-<img [src]="url" alt="">
+<ap-photo
+    *ngFor='let photo of photos'
+    [url]='photo.url'
+    [description]='photo.description'>
+</ap-photo>
+
+
