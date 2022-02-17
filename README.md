@@ -89,4 +89,14 @@ Após instalar a biblioteca, vá até o arquivo "angular.js" contido dentro da r
 ]
 ~~~ 
 
+### Gerando um novo componente através do Angular CLI
 
+~~~javascript
+ ng generate component photos/photo-list
+~~~
+
+### Gerando um novo módulo através do Angular CLI
+
+~~~javascript
+ ng generate component photos/photo-list
+~~~
